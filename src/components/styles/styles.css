@@ -1,0 +1,28 @@
+  /* Defining CSS variables which can be accessed anywhere within the <html> element */
+:root {
+    --color-blue: rgb(77, 181, 255);
+    --color-purple: rgb(59, 59, 139);
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    --color-white: white; 
+
+
+}
+body{
+    background: linear-gradient(135deg, #000000, #1a0033, #2b004f); /* Black to dark purple gradient */
+}
+h1, h2{
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: var(--color-white)
+}
+
+h1{
+  font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+section {
+    padding: 0 2rem; /* Add uniform padding inside on both sides */
+  }
