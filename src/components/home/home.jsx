@@ -11,15 +11,15 @@ const Home = () => {
         <h1>Akshay Kannan</h1>
         <h2>And I'm a</h2>
         <h1>
-        <ReactTyped
+        <ReactTyped className="gradient-text"
             strings={[
-              "Software Engineer.",
-              "Innovator.",
-              "Cybersecurity Enthusiast.",
-              "Geopolitical Enthusiast.",
+              "Software Engineer",
+              "Innovator",
+              "Cybersecurity Enthusiast",
+              "Geopolitical Enthusiast",
             ]}
-            typeSpeed={50} // Speed of typing
-            backSpeed={30} // Speed of deleting
+            typeSpeed={70} // Speed of typing
+            backSpeed={70} // Speed of deleting
             loop // Keeps looping through the strings
           />
         </h1>

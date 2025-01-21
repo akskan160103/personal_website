@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './components/home/home'
+import AboutMe from './components/about_me/about_me'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -10,6 +12,10 @@ function App() {
     <div className="App"> 
         <div>
           <Home />
+        </div>
+
+        <div>
+          <AboutMe />
         </div>
 
     </div>

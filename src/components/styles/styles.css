@@ -10,6 +10,9 @@
 body{
     background: linear-gradient(135deg, #000000, #1a0033, #2b004f); /* Black to dark purple gradient */
 }
+p{
+    color: var(--color-white);
+}
 h1, h2{
     margin-top: 0rem;
     margin-bottom: 1rem;
@@ -25,4 +28,4 @@ h2{
 }
 section {
     padding: 0 2rem; /* Add uniform padding inside on both sides */
-  }
+}

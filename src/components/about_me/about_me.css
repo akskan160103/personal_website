@@ -1,0 +1,82 @@
+  .about-container {
+    display: flex;
+    flex-direction: row; /* Image on the left, text on the right */
+    align-items: center;
+    max-width: 900px;
+    gap: 9rem; /* Space between the image and the text */
+  }
+  
+  /* Left: Image Styling */
+  .about-image {
+    position: relative;
+    width: 300px; /* Image width */
+    height: 300px; /* Image height */
+    border-radius: 20px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px; /* Circular image */
+    object-fit: cover; /* Ensures the image fits */
+    transform: rotate(-10deg); /* Initially rotated */
+    transition: transform 0.3s ease-in-out; /* Smooth straightening animation */
+  }
+  
+  /* Hover Effect: Straighten Image and Show Box */
+  .about-image:hover img {
+    transform: rotate(0); /* Straight position on hover */
+  }
+  
+  .about-image::after {
+    content: ""; /* Creates the box effect */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px; /* Rounded edges for the box */
+    border: 4px solid #9b5de5; /* Purple border */
+    opacity: 0; /* Hidden initially */
+    transition: opacity 0.3s ease-in-out; /* Smooth fade-in effect */
+  }
+  
+  .about-image:hover::after {
+    opacity: 1; /* Box becomes visible on hover */
+  }
+  
+  /* Right: Text Styling */
+  .about-text {
+    flex: 1; /* Text takes up the remaining space */
+    text-align:justify;
+  }
+  
+  
+  /* Link Styling */
+  .about-text a {
+    color: #9b5de5; /* Purple link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+  }
+  
+  .about-text a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  /* Responsive Design: Stack image and text vertically for smaller screens */
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column; /* Stack items */
+      text-align: center;
+    }
+  
+    .about-image {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .about-text {
+      margin-top: 20px;
+    }
+  }
+  

@@ -1,0 +1,10 @@
+/* Rainbow Gradient for Typed Text */
+.gradient-text {
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff7e5f, #fc6, #6a95ff, #9b5de5); /* Gradient colors */
+    -webkit-background-clip: text; /* Clips the gradient to the text */
+    -webkit-text-fill-color: transparent; /* Makes the gradient visible */
+    text-align: center;
+    display: inline-block; /* Ensures proper alignment */
+  }
+  
