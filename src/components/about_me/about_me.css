@@ -3,7 +3,7 @@
     flex-direction: row; /* Image on the left, text on the right */
     align-items: center;
     max-width: 900px;
-    gap: 9rem; /* Space between the image and the text */
+    gap: 10rem; /* Space between the image and the text */
   }
   
   /* Left: Image Styling */
@@ -54,7 +54,7 @@
   
   /* Link Styling */
   .about-text a {
-    color: #9b5de5; /* Purple link color */
+    color: var(--color-gold);
     text-decoration: none; /* Remove underline */
     font-weight: bold;
   }
@@ -62,21 +62,3 @@
   .about-text a:hover {
     text-decoration: underline; /* Add underline on hover */
   }
-  
-  /* Responsive Design: Stack image and text vertically for smaller screens */
-  @media (max-width: 768px) {
-    .about-container {
-      flex-direction: column; /* Stack items */
-      text-align: center;
-    }
-  
-    .about-image {
-      width: 150px;
-      height: 150px;
-    }
-  
-    .about-text {
-      margin-top: 20px;
-    }
-  }
-  

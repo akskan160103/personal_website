@@ -1,9 +1,11 @@
   /* Defining CSS variables which can be accessed anywhere within the <html> element */
 :root {
+
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     --color-blue: rgb(77, 181, 255);
     --color-purple: rgb(59, 59, 139);
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     --color-white: white; 
+    --color-gold: #ffcc00;
 
 
 }
