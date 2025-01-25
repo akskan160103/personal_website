@@ -6,6 +6,7 @@
     --color-purple: rgb(59, 59, 139);
     --color-white: white; 
     --color-gold: #ffcc00;
+    --color-light-yellow: #ff6
 
 
 }
@@ -14,6 +15,7 @@ body{
 }
 p{
     color: var(--color-white);
+    margin: 0;
 }
 h1, h2{
     margin-top: 0rem;

@@ -1,0 +1,30 @@
+.header {
+    position: fixed; /* Makes the header fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Stretches the header across the screen */
+    background: rgba(255, 255, 255, 0.1); /* Transparent white background */
+    z-index: 1000; /* Ensures the header is on top of other elements */
+    padding: 1rem;
+  }
+  
+  .nav-bar {
+    display: flex; /* Makes the nav links a flex container */
+    justify-content: center;
+    gap: 15rem;
+  }
+  
+  .nav-link {
+    color: #ffffff; /* White text for the links */
+    text-decoration: none; /* Removes underline from links */
+    font-weight: 500; /* Makes the text slightly bold */
+    transition: color 0.3s ease; /* Smooth color change on hover */
+    padding: 1rem;
+    border-radius: 15px;
+  }
+  
+  .nav-link:hover {
+    background-color: var(--color-gold);
+
+  }
+  

@@ -11,14 +11,15 @@
   
   /* Project Card */
   .project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: rgba(255, 255, 255, 0.1); /* Transparent white background */
     border-radius: 15px;
-    padding: 20px;
     width: 400px;
     text-align: left;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-align: center;
   }
   
   .project-card:hover {
@@ -41,7 +42,7 @@
   .project-bullets {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style:none;
   }
   
   .project-bullets li {
@@ -52,6 +53,8 @@
   
   /* Project Tags */
   .project-tags {
+    display: flex;
+    gap: 2rem;
     margin-top: 10px;
   }
   
@@ -61,8 +64,7 @@
     color: var(--color-white);
     border-radius: 8px;
     padding: 5px 10px;
-    margin: 5px;
-    font-size: 0.9rem;
+
   }
   
   /* Arrows */
@@ -79,3 +81,28 @@
     transform: scale(1.2);
     color: #ff6
   }
+
+
+  .progress-bar {
+    width: 55%;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.1); /* Transparent white background */
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  
+  .progress-indicator {
+    height: 100%;
+    background: var(--color-gold);
+    border-radius: 5px;
+    transition: width 0.5s ease-in-out;
+  }
+
+  .section-title-container{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+.github-icon-link{
+  font-size: 25px;
+}

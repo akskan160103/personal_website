@@ -5,7 +5,7 @@ import {ReactTyped} from "react-typed";
 
 const Home = () => {
   return (
-    <section className="home-section">
+    <section id='home' className="home-section">
       <div className="home-content">
         <h2>Hello, I'm</h2>
         <h1>Akshay Kannan</h1>
