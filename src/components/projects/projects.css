@@ -1,23 +1,31 @@
 /* Projects Section */
   
   /* Project Display Container */
+
+  .projects-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
   .project-display {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 25px;
-    max-width: 1200px;
+    max-width: 1500px;
   }
   
   /* Project Card */
   .project-card {
+    background-color:var(--color-light-purple);
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgba(255, 255, 255, 0.1); /* Transparent white background */
     border-radius: 15px;
-    width: 400px;
-    text-align: left;
+    max-width: 500px;
+    text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
@@ -35,27 +43,36 @@
   
   /* Project Description */
   .project-description {
-    color: #dddddd;
+    color: var(--color-grey)
+  }
+
+  .project-card ul{
+    list-style-position:inside; /*The default value of this property is outside: */
+    padding-left: 10px;
   }
   
   /* Project Bullets */
   .project-bullets {
     margin: 0;
     padding: 0;
-    list-style:none;
   }
   
   .project-bullets li {
     font-size: 1rem;
-    margin: 5px 0;
+    margin: 15px 0;
     color: var(--color-white);
+    text-align:justify;
+    text-indent: -20px;
+    padding-left: 20px;
+    word-wrap: break-word;
   }
   
   /* Project Tags */
   .project-tags {
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     margin-top: 10px;
+    flex-wrap: wrap;
   }
   
   .project-tags .tag {
@@ -104,5 +121,59 @@
     justify-content: center;
   }
 .github-icon-link{
-  font-size: 25px;
+  font-size: 30px;
+  color: var(--color-gold);
 }
+
+.github-icon-link:hover{
+  color: var(--color-light-yellow);
+}
+
+
+
+
+
+
+
+@media (max-width: 650px) {
+  /* Reduce text size in the project card */
+
+  .project-description {
+    font-size: 0.8rem; /* Slightly smaller description */
+  }
+
+  .project-bullets li {
+    font-size: 0.8rem; /* Reduce font size for bullets */
+    text-indent: -18px; /* Adjust text indent */
+    padding-left: 15px; /* Adjust padding for alignment */
+  }
+  /* Adjust size of arrows */
+  .arrow {
+    font-size: 1rem; /* Make arrows smaller */
+  }
+
+  /* Adjust project card size */
+  .project-card {
+    max-width: 450px; /* Shrink card size slightly */
+  }
+
+  .project-display{
+    gap:0rem;
+  }
+
+  .project-tags{
+    gap: 0.5rem;
+  }
+
+  .project-tags span{
+    font-size: 0.8rem;
+  }
+  .section-title-container{
+    flex-direction: column;
+    gap: 0rem;
+  }
+
+
+
+}
+

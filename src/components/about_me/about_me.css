@@ -1,9 +1,13 @@
+  .about-section{
+    display: flex;
+    justify-content: center;
+  }
+  
   .about-container {
     display: flex;
     flex-direction: row; /* Image on the left, text on the right */
-    align-items: center;
-    max-width: 900px;
-    gap: 10rem; /* Space between the image and the text */
+    justify-content: space-evenly;
+    gap: 7rem;
   }
   
   /* Left: Image Styling */
@@ -62,3 +66,25 @@
   .about-text a:hover {
     text-decoration: underline; /* Add underline on hover */
   }
+
+
+  @media (max-width: 800px) {
+    .about-container {
+      flex-direction: column; /* Stacks the image and text vertically */
+      align-items: center; /* Center-align the items in the column */
+      gap: 2rem;
+    }
+  }
+
+
+  @media (max-width: 400px) {
+      .about-image{
+        width: 250px;
+        height: 250px;
+      }
+  }
+
+
+
+
+

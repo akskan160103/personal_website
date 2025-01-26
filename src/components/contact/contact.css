@@ -2,7 +2,7 @@
 .contact {
     text-align: center; /* Center align text */
     padding: 2rem; /* Add padding around the section */
-    background: rgba(255, 255, 255, 0.1); /* Transparent white background */
+    background-color: var(--color-light-purple)
   }
   
   

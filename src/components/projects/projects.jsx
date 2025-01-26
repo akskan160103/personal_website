@@ -3,61 +3,72 @@ import "@/components/projects/projects.css";
 
 const projects = [
   {
-    title: "Project Title 1",
-    description: "Short description for project 1.",
+    title: "NSEIT (US) Inc.",
+    description: "Software Engineering Intern",
     bulletPoints: [
-      "Bullet point 1 for project 1",
-      "Bullet point 2 for project 1",
-      "Bullet point 3 for project 1",
+      "Performed LLM quantization on the Meta Llama 3 - 70B model for the customer service chatbot system using AWS SageMaker, improving inference speed by 20%",
+      "Integrated guardrails with the LLM, reducing token usage by 12% and response time by 15%, while improving chatbot response accuracy by 8%",
+      "Worked with engineers and system architects to analyze and optimize post-deployment model performance, leading to a 14% reduction in operational costs through improved server efficiency and resource management",
     ],
-    tags: ["Tag1", "Tag2", "Tag3"],
+    tags: ["AWS Sagemaker", "Hugging Face"],
   },
   {
-    title: "Project Title 2",
-    description: "Short description for project 2.",
+    title: "CLUES Project",
+    description: "Research Assistant",
     bulletPoints: [
-      "Bullet point 1 for project 2",
-      "Bullet point 2 for project 2",
+      "Engineered integration of the LearningClues tool, a platform designed to index and analyze spoken and visual content, with Canvas and D2L improving accessibility to over 1000 students spread across 8 courses",
+      "Utilized AWS CDK for the scalable deployment and management of LearningClues, ensuring a 99.8% uptime",
+      "Created an instructor support feature, providing real-time suggestions for supplementary content leading to a 4.7/5 satisfaction rating in early user testing",
     ],
-    tags: ["Tag1", "Tag2"],
+    tags: [],
   },
   {
-    title: "Project Title 3",
-    description: "Short description for project 3.",
+    title: "First Abu Dhabi Bank",
+    description: "Software Engineering Intern",
     bulletPoints: [
-      "Bullet point 1 for project 3",
-      "Bullet point 2 for project 3",
-      "Bullet point 3 for project 3",
+      "Led the adoption of SOAR (Security Orchestration, Automation and Response) platform using Swimlane",
+      "Wrote Python scripts that automated repetitive tasks, resulting in 27% fewer false positives and a 15% increase in productivity",
+      "Designed a JavaScript-based IP information retrieval tool that enabled the Network Operations and Security Team to detect and block 82% of malicious IP traffic in real-time",
     ],
-    tags: ["Tag1", "Tag2", "Tag3"],
+    tags: ["Swimlane", "Javascript", "Python"],
   },
   {
-    title: "Project Title 4",
-    description: "Short description for project 4.",
+    title: "Yujiva",
+    description: "Personal Project",
     bulletPoints: [
-      "Bullet point 1 for project 4",
-      "Bullet point 2 for project 4",
+      "Led the adoption of SOAR (Security Orchestration, Automation and Response) platform using Swimlane",
+      "Wrote Python scripts that automated repetitive tasks, resulting in 27% fewer false positives and a 15% increase in productivity",
+      "Designed a JavaScript-based IP information retrieval tool that enabled the Network Operations and Security Team to detect and block 82% of malicious IP traffic in real-time",
     ],
-    tags: ["Tag1", "Tag2"],
+    tags: ["Javascript", "React.js"],
   },
   {
-    title: "Project Title 5",
-    description: "Short description for project 5.",
+    title: "Voz",
+    description: "Personal Project",
     bulletPoints: [
-      "Bullet point 1 for project 5",
-      "Bullet point 2 for project 5",
-      "Bullet point 3 for project 5",
+      "Developed Voz, an AI-based language learning app using GPT-4 to simulate real-time conversations in Spanish, offering both predefined and custom scenarios",
+      "Integrated voice recognition, text-to-speech, and an English translation feature, with the translation feature receiving the highest user satisfaction rating of 4.8/5.0",
     ],
-    tags: ["Tag1", "Tag2", "Tag3"],
+    tags: ["GPT-4 API", "Web Speech API", "react-speech-recognition"],
   },
   {
-    title: "Project Title 6",
-    description: "Short description for project 6.",
+    title: "SpotScope",
+    description: "Personal Project",
     bulletPoints: [
-      "Bullet point 1 for project 6",
-      "Bullet point 2 for project 6",
+      "Built a full-stack geolocation tool, using Express.js and React to translate IP addresses into geographical data",
+      "Set up a MongoDB database storing 3.8 million records, optimizing query performance by converting IP ranges to numerical equivalents",
+      "Integrated OpenStreetMap via react-leaflet on the frontend, rendering a map that pins the approximate location and offers interactive navigation",
     ],
-    tags: ["Tag1", "Tag2"],
+    tags: ["Javascript", "Express.js", "React.js", "MongoDB"],
+  },
+  {
+    title: "TableVision",
+    description: "Personal Project",
+    bulletPoints: [
+      "Developed a flask-based API that uses a computer vision model (YOLOv5) to identify available study spaces in real-time",
+      "Employed Roboflow for data annotation, which improved the model’s accuracy in identifying occupied and unoccupied tables to 65% and introduced me to performance evaluation of machine learning models",
+    ],
+    tags: ["Python", "Flask", "React", "YOLOv5"],
   },
 ];
 
@@ -96,7 +107,7 @@ const Projects = () => {
     <section className="projects-section" id="projects">
 
       <div className="section-title-container">
-        <h2 className="section-title">Featured Projects</h2>
+        <h1 className="section-title">Featured Projects</h1>
         <a
           href="https://github.com/akskan160103"
           target="_blank"

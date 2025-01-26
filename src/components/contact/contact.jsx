@@ -8,7 +8,7 @@ function Contact() {
       <div className="contact-container">
         {/* Email */}
 
-            <a href="mailto:contact@yujiva.com" className="contact-item">
+            <a href="mailto:akskan@umich.edu" className="contact-item">
                 <ion-icon name="mail-outline" className='contact-icon'></ion-icon>
             </a>
 

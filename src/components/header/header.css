@@ -1,17 +1,17 @@
 .header {
+
     position: fixed; /* Makes the header fixed at the top */
     top: 0;
     left: 0;
     width: 100%; /* Stretches the header across the screen */
-    background: rgba(255, 255, 255, 0.1); /* Transparent white background */
+    background-color: var(--color-light-purple);
     z-index: 1000; /* Ensures the header is on top of other elements */
-    padding: 1rem;
   }
   
   .nav-bar {
     display: flex; /* Makes the nav links a flex container */
     justify-content: center;
-    gap: 15rem;
+    gap: 2rem;
   }
   
   .nav-link {
@@ -25,6 +25,24 @@
   
   .nav-link:hover {
     background-color: var(--color-gold);
-
   }
+
+  @media (max-width: 525px) {
+    .nav-link {
+      font-size: 0.8rem; /* Slightly smaller font size for tablets and phones */
+      padding: 0.8rem;
+    }
+    .nav-bar{
+      gap: 1.5rem;
+    }
+  }
+
+
+
+
+
+
+
+
+
   

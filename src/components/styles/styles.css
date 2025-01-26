@@ -1,21 +1,33 @@
-  /* Defining CSS variables which can be accessed anywhere within the <html> element */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Defining CSS variables which can be accessed anywhere within the <html> element */
 :root {
 
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     --color-blue: rgb(77, 181, 255);
-    --color-purple: rgb(59, 59, 139);
+    --color-dark-purple: rgb(43, 23, 82);
+    --color-light-purple: rgba(66,34,94,255);
     --color-white: white; 
     --color-gold: #ffcc00;
-    --color-light-yellow: #ff6
+    --color-light-yellow: #ff6;
+    --color-grey: #dddddd;
 
 
 }
 body{
     background: linear-gradient(135deg, #000000, #1a0033, #2b004f); /* Black to dark purple gradient */
+
 }
+
 p{
     color: var(--color-white);
     margin: 0;
+    font-size: 1rem;
+
 }
 h1, h2{
     margin-top: 0rem;
@@ -30,6 +42,21 @@ h1{
 h2{
     font-size: 2rem;
 }
+a{
+    font-size: 1rem;
+}
 section {
     padding: 0 2rem; /* Add uniform padding inside on both sides */
+    margin-top: 2rem;
 }
+
+
+@media (max-width: 700px) {
+    h1{
+      font-size: 2rem;
+    }
+    h2{
+      font-size: 1.5rem;
+    }
+}
+
