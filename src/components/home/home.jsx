@@ -1,5 +1,5 @@
 import React from "react";
-import "@/components/home/Home.css"; // Link to the CSS for this component
+import "@/components/home/home.css"; // Link to the CSS for this component
 import {ReactTyped} from "react-typed";
 
 
