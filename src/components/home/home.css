@@ -8,17 +8,6 @@
     display: inline-block; /* Ensures proper alignment */
   }
   .home-section{
-    padding-top: 78px;
+    padding-top: 70px;
   }
 
-
-
-  @media (max-width: 700px) {
-      .home-content h1{
-        font-size: 2rem;
-      }
-      .home-content h2{
-        font-size: 1.8rem;
-      }
-  }
-  

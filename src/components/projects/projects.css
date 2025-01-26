@@ -96,7 +96,7 @@
   
   .arrow:hover {
     transform: scale(1.2);
-    color: #ff6
+    color: var(--color-light-yellow);
   }
 
 

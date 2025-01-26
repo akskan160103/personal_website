@@ -16,7 +16,7 @@ const AboutMe = () => {
           <p>
             Hey, My name is <b>Akshay Kannan</b>, and I'm currently pursuing my <b>Bachelor's in Computer Science</b> at the <b>University of Michigan - Ann Arbor</b>. 
             I’m passionate about <b>full-stack web development</b>, <b>cybersecurity</b>, and <b>artificial intelligence</b>, and I enjoy exploring diverse projects and internships that challenge my skills and creativity. 
-            Feel free to <a href="#contact">reach out to me</a>—whether it’s to collaborate on <b>exciting projects</b>, discuss <b>potential opportunities</b>, or simply connect and share ideas. 
+            Feel free to <a href="#contact" >reach out to me</a>—whether it’s to collaborate on <b>exciting projects</b>, discuss <b>potential opportunities</b>, or simply connect and share ideas. 
             I’d love to hear from you and explore how we can work together. <b>Thanks!</b>
           </p>
         </div>

@@ -38,6 +38,15 @@
   }
 
 
+  @media (max-width: 400px) {
+    .nav-bar{
+      gap: 0rem;
+    }
+  }
+
+  
+
+
 
 
 
