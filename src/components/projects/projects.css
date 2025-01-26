@@ -28,6 +28,7 @@
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 1rem;
   }
   
   .project-card:hover {
@@ -46,26 +47,30 @@
     color: var(--color-grey)
   }
 
-  .project-card ul{
-    list-style-position:inside; /*The default value of this property is outside: */
-    padding-left: 10px;
+  .section-title-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
-  
-  /* Project Bullets */
+
+
+
+
+
   .project-bullets {
-    margin: 0;
+    list-style-position: inside;
+    list-style:circle; /* Remove default bullets */
     padding: 0;
   }
   
   .project-bullets li {
-    font-size: 1rem;
+    text-align: justify; /* Align text properly */
     margin: 15px 0;
+    font-size: 1rem;
     color: var(--color-white);
-    text-align:justify;
-    text-indent: -20px;
-    padding-left: 20px;
-    word-wrap: break-word;
   }
+
   
   /* Project Tags */
   .project-tags {
@@ -144,8 +149,7 @@
 
   .project-bullets li {
     font-size: 0.8rem; /* Reduce font size for bullets */
-    text-indent: -18px; /* Adjust text indent */
-    padding-left: 15px; /* Adjust padding for alignment */
+
   }
   /* Adjust size of arrows */
   .arrow {
@@ -158,7 +162,7 @@
   }
 
   .project-display{
-    gap:0rem;
+    gap:0.1rem;
   }
 
   .project-tags{

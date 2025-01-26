@@ -13,9 +13,8 @@ const Home = () => {
         <h1>
         <ReactTyped className="gradient-text"
             strings={[
-              "Software Engineer",
-              "Innovator",
-              "Cybersecurity Enthusiast",
+              "Student",
+              "Builder",
               "Geopolitical Enthusiast",
             ]}
             typeSpeed={70} // Speed of typing

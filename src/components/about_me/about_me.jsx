@@ -5,6 +5,7 @@ import myPicture from "@/images/Headshot.39920639520e37497162.jpg"; // Replace w
 const AboutMe = () => {
   return (
     <section className="about-section" id="about">
+      
       <div className="about-container">
         {/* Left: Picture */}
         <div className="about-image">
