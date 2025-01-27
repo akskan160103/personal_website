@@ -61,7 +61,7 @@
   .project-bullets {
     list-style-position: inside;
     list-style:circle; /* Remove default bullets */
-    padding: 0;
+    padding: 1;
   }
   
   .project-bullets li {
@@ -157,9 +157,7 @@
   }
 
   /* Adjust project card size */
-  .project-card {
-    max-width: 450px; /* Shrink card size slightly */
-  }
+
 
   .project-display{
     gap:0.1rem;
@@ -177,7 +175,11 @@
     gap: 0rem;
   }
 
-
-
+  .projects-section{
+    padding: 0;
+  }
 }
+
+
+
 

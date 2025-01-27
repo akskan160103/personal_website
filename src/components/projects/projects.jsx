@@ -36,9 +36,7 @@ const projects = [
     title: "Yujiva",
     description: "Personal Project",
     bulletPoints: [
-      "Led the adoption of SOAR (Security Orchestration, Automation and Response) platform using Swimlane",
-      "Wrote Python scripts that automated repetitive tasks, resulting in 27% fewer false positives and a 15% increase in productivity",
-      "Designed a JavaScript-based IP information retrieval tool that enabled the Network Operations and Security Team to detect and block 82% of malicious IP traffic in real-time",
+      "Developed a website for my mom's yoga business to support marketing and client engagement, leading to a 27% increase in inquiries within two weeks of launch",
     ],
     tags: ["Javascript", "React.js"],
   },
