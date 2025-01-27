@@ -9,12 +9,15 @@
 
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     --color-blue: rgb(77, 181, 255);
-    --color-dark-purple: rgb(43, 23, 82);
-    --color-light-purple: rgba(66,34,94,255);
+    --color-dark-purple: rgb(42, 22, 84);
+    --color-light-purple: rgb(42, 22, 84);
     --color-white: white; 
     --color-gold: #ffcc00;
     --color-light-yellow: #ff6;
     --color-grey: #dddddd;
+
+
+    /* --color-light-purple: rgba(66,34,94,255); */
 
 
 }

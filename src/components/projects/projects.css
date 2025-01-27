@@ -39,7 +39,16 @@
   /* Project Title */
   .project-title {
     margin-bottom: 10px;
-    color: var(--color-gold);
+    background: linear-gradient(90deg, #ffd700, #ffcc00, #ffb347);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+    /* background: linear-gradient(90deg, #6a95ff, #9b5de5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+    
   }
   
   /* Project Description */
